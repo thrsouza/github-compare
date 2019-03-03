@@ -5,13 +5,19 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   padding-top: 60px;
+
+  img {
+    width: 100%;
+    max-width: 300px;
+  }
 `;
 
 export const Form = styled.form`
   margin-top: 20px;
-  width: 100%;
+  width: 90%;
   max-width: 400px;
   display: flex;
+  flex-direction: center;
 
   input {
     flex: 1;
@@ -30,7 +36,7 @@ export const Form = styled.form`
     height: 55px;
     padding: 15px;
     margin-left: 10px;
-    background: #63f5b0;
+    background: #6272a4;
     color: #fff;
     border: 0;
     font-size: 20px;
@@ -38,7 +44,7 @@ export const Form = styled.form`
     border-radius: 3px;
 
     &:hover {
-      background: #52d89f;
+      background: #44475a;
     }
   }
 `;
