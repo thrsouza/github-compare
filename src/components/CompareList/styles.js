@@ -77,7 +77,7 @@ export const Repository = styled.div`
       border-radius: 5px;
 
       &.update {
-        background: #6272a4;
+        background: #262b32;
         margin-bottom: 5px;
       }
 
@@ -86,7 +86,7 @@ export const Repository = styled.div`
       }
 
       &:hover {
-        background: #44475a;
+        background: #161b22;
       }
     }
   }

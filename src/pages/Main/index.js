@@ -88,7 +88,7 @@ export default class Main extends Component {
 
     return (
       <Container>
-        <img src={logo} alt="Github Compare" />
+        <h1>Github Stats</h1>
         <Form withError={repositoryError} onSubmit={this.handleAddRepository}>
           <input
             type="text"

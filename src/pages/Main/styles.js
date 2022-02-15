@@ -6,9 +6,11 @@ export const Container = styled.div`
   align-items: center;
   padding-top: 60px;
 
-  img {
-    width: 100%;
-    max-width: 300px;
+  h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 56px;
   }
 `;
 
@@ -25,10 +27,10 @@ export const Form = styled.form`
     padding: 0 20px;
     background: #fff;
     font-size: 18px;
-    color: #444;
+    color: #161b22;
     border-radius: 3px;
 
-    border: ${props => (props.withError ? '2px solid #f00' : 0)};
+    border: ${(props) => (props.withError ? '2px solid #f00' : 0)};
   }
 
   button {
@@ -36,7 +38,7 @@ export const Form = styled.form`
     height: 55px;
     padding: 15px;
     margin-left: 10px;
-    background: #6272a4;
+    background: #262b32;
     color: #fff;
     border: 0;
     font-size: 20px;
@@ -44,7 +46,7 @@ export const Form = styled.form`
     border-radius: 3px;
 
     &:hover {
-      background: #44475a;
+      background: #161b22;
     }
   }
 `;
